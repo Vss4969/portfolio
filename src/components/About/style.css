@@ -1,0 +1,35 @@
+
+.image-container {
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0;
+    box-shadow: 0 0 50px 10px rgba(0, 0, 0, 0.5);
+  }
+
+
+
+
+
+
+/* Add these styles to your style.css */
+
+/* Define the pivoting animation */
+@keyframes pivot {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(5deg); /* Adjust the value for the desired pivoting angle */
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* Apply the pivoting animation on hover */
+.jumping-button:hover {
+  animation: pivot 0.3s ease-in-out infinite; /* Adjust the duration and timing function as needed */
+}
+
+
+

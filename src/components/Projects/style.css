@@ -1,0 +1,9 @@
+
+.project-card {
+    transition: transform 2s ease-in-out;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.10); /* Adjust the scale factor as needed */
+  }
+  
