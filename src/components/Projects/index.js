@@ -2,7 +2,7 @@ import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "./data";
 import "../Projects/style.css";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 export default function Projects() {
   return (
@@ -43,11 +43,11 @@ export default function Projects() {
             </a>
           ))}
         </div>
-        <Link to="/allprojects">
+        {/* <Link to="/allprojects">
           <button className="bg-gray-800 text-cyan hover:bg-gray-700 hover:text-white px-6 py-4 mt-12 rounded">
             More Projects
           </button>
-        </Link>
+        </Link> */}
       </div>
     </section>
   );
