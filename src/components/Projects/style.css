@@ -6,4 +6,9 @@
   .project-card:hover {
     transform: scale(1.10); /* Adjust the scale factor as needed */
   }
+
+  /* Apply the pivoting animation on hover */
+.jumping-button:hover {
+  animation: pivot 0.3s ease-in-out infinite; /* Adjust the duration and timing function as needed */
+}
   

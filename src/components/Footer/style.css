@@ -1,0 +1,44 @@
+/* Add these styles to your style.css file */
+
+.footer-container {
+    display: flex;
+    height: 300px;
+    padding: 40px;
+}
+
+.logo-container,
+.contact-container,
+.social-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Add a translucent line between the sections */
+.logo-container,
+.contact-container {
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Adjust the styles for the logo and contact information */
+.logo-container img {
+    margin-right: 4px; /* Adjust the right margin for spacing */
+}
+
+.contact-container {
+    text-align: center;
+}
+
+/* Center and stack the links in the social container */
+.icons-container {
+    display: flex;
+    align-items: center;
+}
+
+.social-container a {
+    margin: 5px; /* Add some margin between the links */
+}
+
+/* Add any additional styling you need for the links, like hover effects, etc. */
